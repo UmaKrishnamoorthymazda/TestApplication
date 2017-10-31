@@ -1,0 +1,57 @@
+package com.mazdausa.infocenter.ldap.domain;
+
+import java.io.Serializable;
+
+public interface LDAPPerson extends Serializable {
+	boolean isActive();
+	boolean isDealerPerson();
+	String getCity();
+	String getCountry();
+	String getCountryCd();
+	String getDealerEmpCd();
+	String getEmail();
+	String getEmployeeNumber();
+	String getExecJobFlag();
+	String getExtnsnNo();
+	String getFaxNo();
+	String getFirstName();
+	String getHireCd();
+	String getHireDt();
+	String getHomePhone();
+	String getInitialNm();
+	String getJobCtgryCd();
+	String getJobCtgryNm();
+	String getJobStartDt();
+	String getLastName();
+	String getLastUpdtTm();
+	String getLoctnCd();
+	String getLoctnStatusCd();
+	String getPersonalTitle();
+	String getPhoneNo();
+	String getPostalCd();
+	String getPrimJobCd();
+	String getPrsnStatusCd();
+	String getPrsnTypeCd();
+	String getRgnCd();
+	String getSecJobCd1();
+	String getSecJobCd2() ;
+	String getSecJobCd3() ;
+	String getStCd() ;
+	String getStr1Ad() ;
+	String getStr2Ad() ;
+	String getStr3Ad() ;
+	String getTitle() ;
+	String getTrmntnCd() ;
+	String getTrmntnDt() ;
+	String getType1Cd() ;
+	String getType2Cd() ;
+	String getType3Cd() ;
+	String getUserid() ;
+	String getDealerCmt() ;
+	String getLastUseridCd() ;
+	String getLocationNm() ;
+	String getJobDescription(String jobCode);
+	String getVdsDlrCd();
+	String getLanguageCd();
+	void setEmail(String newEmail);
+}
